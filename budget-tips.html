@@ -13,23 +13,49 @@
         .piechart {
             margin-top: 350px;
             position: absolute;
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 350px;
             border-radius: 50%;
             background-image: conic-gradient(
-                #d7d7d7 70deg,
+                #c5c4c4 70deg,
                 #a5bda7 0 235deg,
                 #657965 0);
         }
-
         body,
         .piechart {
             display: flex;
-            justify-content: left;
-            margin-left: 25px;
+            margin-left: 55px;
             align-items: center;
             font-family: Roboto;
         }
+
+        h1 {
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .square1 {
+        width: 30px;
+        height: 30px;
+        background: #a5bda7;
+            position: absolute; top:150px; left:550px;
+
+    }
+        .square2 {
+        width: 30px;
+        height: 30px;
+        background: #c5c4c4;
+            position: absolute; top:200px; left:550px;
+
+    }
+        .square3 {
+        width: 30px;
+        height: 30px;
+        background: #657965;
+            position: absolute; top:250px; left:550px;
+
+    }
+
 
 
 
@@ -42,7 +68,9 @@
     <h1>Budgeting Tips</h1>
     <div class="piechart"></div>
     <div class="key"></div>
-<div id="square"></div>
+    <div class="square1"></div>
+    <div class="square2"></div>
+    <div class="square3"></div>
 
 </body>
   
